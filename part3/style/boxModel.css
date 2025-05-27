@@ -1,0 +1,42 @@
+/* 
+  * :아스테라스크
+  - : 하이픈
+  _ : 언더스코어
+  __ : 던더
+  & : 앤퍼센드
+*/
+
+
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.box01 {
+  text-align: center;
+  background-color: red;
+  /* 컨텐츠가 1층에 있을때 */
+  /* margin: 0 auto;  */
+  /* margin-inline: 30px; */
+  /* margin-block: 30px; */
+}
+
+.box02 {
+  background-color: dodgerblue;
+  padding: 10px 20px 30px 40px;
+}
+
+.box03 {
+  background-color: orange;
+  border: 10px solid red;
+  /* border-radius: 50%;
+   */
+   border-top-right-radius: 30px;
+   padding-left: 30px;
+}
+
+.box04 {
+  box-sizing: border-box;
+  background-color: greenyellow;
+  border: 5px solid black;
+}

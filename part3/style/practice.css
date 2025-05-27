@@ -1,0 +1,31 @@
+
+.nav_list li:nth-child(3) {
+  a {
+    color: red;
+  }
+}
+
+main {
+  background-color: rgb(176, 172, 172);
+}
+
+main .box_sec {
+  .box01 {
+    background-color: yellowgreen;
+    border: 1px solid blue;
+  }
+}
+
+main .list {
+   > li:nth-child(2) {
+    font-size: 20px;
+    font-weight: bold;
+   }
+   > li:nth-child(3) {
+    text-decoration: underline;
+   }
+}
+
+footer:hover > p {
+  color: dodgerblue;
+}

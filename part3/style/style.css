@@ -1,22 +1,31 @@
 
-.container {
+.list {
   background-color: hotpink;
 }
 
-.box01 {
-  width: 200px;
-  height: 200px;
+/* list 안에 있는 li들에게만 */
+/* 한킨 띄어쓰기 : ~안에 있는 */
+.list > li {
   background-color: dodgerblue;
 }
 
-.box02 {
-  width: 200px;
-  height: 200px;
+/* list 안에 있는 모든 menu만 */
+.list .menu {
+
+}
+
+/* list 안에 있는 친자식 menu만 */
+.list > .menu {
   background-color: orange;
 }
 
-.anoter {
-  width: 400px;
-  height: 600px;
-  background-color: black;
+.list > li:nth-child(2n) {
+  background-color: greenyellow;
+}
+
+/* CSS nesting */
+.list {
+   > li:nth-child(3) {
+    color: #fff;
+   }
 }
